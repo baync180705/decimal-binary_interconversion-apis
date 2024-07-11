@@ -1,4 +1,6 @@
-let  decimalToBinary = (decimal)=>{
+let decimalToBinary = (decimal)=>{
+
+    if(decimal==0) return '0'
     let binaryList = []
 
     while(decimal>1){
